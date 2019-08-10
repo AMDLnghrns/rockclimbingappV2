@@ -146,7 +146,7 @@ app.get("/:attribute/:value", (request, response) => {
     where: {
       [request.params.attribute]: request.params.value
     },
-    limit: 10
+    limit: 6
   }).then(scraped => response.json(scraped));
 });
 

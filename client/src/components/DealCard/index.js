@@ -2,12 +2,12 @@ import React from "react";
 import "./styles.css";
 
 
-export default function ArticleCard(props) {
+export default function DealCard(props) {
   
   return (
-    <div>
+    <div className="card">
       <section>
-        <h6>{props.title}</h6>
+        <h6>{props.description}</h6>
       </section>
       <div className="imageContainer">
         <img src={props.picture} alt={props.title} />

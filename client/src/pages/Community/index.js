@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ImageCard from "../../components/ImageCard";
-import ArticleCard from "../../components/ArticleCard"
+import ArticleCard from "../../components/ArticleCard";
+import DealCard from "../../components/DealCard";
 import "./community.css";
 
 
@@ -31,7 +32,7 @@ export function Community() {
         .then(data => {
           console.log("this is the article data", data);
           setArticle(data);
-        }); 
+        });
     }
 
     function fetchDeals() {
@@ -53,17 +54,17 @@ export function Community() {
     
   return (
     <div>
-      {picture.map(pictures => (
+      <div className="row">
+        {picture.map(pictures => (
         
-        <ImageCard
-          key={pictures.unique_id}
-          title={pictures.title}
-          url={pictures.url}       
-        />
+          <ImageCard
+            key={pictures.unique_id}
+            title={pictures.title}
+            url={pictures.url}       
+          />
        
-      ))}
-        
-      {JSON.stringify(picture.url)}
+        ))}
+      </div>
     
       {article.map(articles => (
         
@@ -74,8 +75,19 @@ export function Community() {
         />
        
       ))}
+
+
+      {deal.map(deals => (
         
-      {JSON.stringify(picture.url)}
+        <DealCard
+          key={deals.unique_id}
+          title={deals.title}
+          description={deals.description} 
+          picture = {deals.picture}      
+        />
+       
+      ))}
+        
     </div>
   ); 
 
