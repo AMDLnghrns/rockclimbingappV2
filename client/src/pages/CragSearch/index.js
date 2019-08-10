@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import actions from "../../actions";
 // import Maps from "../../components/Map/index.js";
 import Gauge from "../../components/Gauge/index.js";
+import Gauge2 from "../../components/Gauge2/index.js";
 import Weather from "../../components/Weather/index.js";
 import MPWidget from "../../components/MPWidget/index.js";
 import { getRandomDog } from "../../store";

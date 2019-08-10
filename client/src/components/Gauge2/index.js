@@ -13,10 +13,10 @@ class Gauge extends Component {
   }
 
   componentDidMount() {
-    const url = "https://waterservices.usgs.gov/nwis/iv/?format=json&bBox=-97.772229,30.2635416,-97.772227,30.2635417&parameterCd=00060,00065&siteStatus=active";
+    const url = "https://waterservices.usgs.gov/nwis/iv/?format=json&bBox=-97.771395,30.2635416,-97.771394,30.2635417&parameterCd=00060,00065&siteStatus=active";
     fetch(url)
       .then(response => response.json())
-      .then(data => this.setState({value: (data.value.timeSeries[1].values[0].value[0].value)*10}));
+      .then(data => this.setState({value: (data.value.timeSeries[1].values[0].value[0].value)}));
   }
 
   startColor = "#6495ed"; // cornflowerblue
