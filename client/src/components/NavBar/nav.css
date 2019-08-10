@@ -7,6 +7,10 @@
 	#link {
 		color: #4aaaa5;
 	}
+
+	a {
+		color: whitesmoke;
+	}
 	
 	.navigation {
 		padding: 18px;
@@ -37,9 +41,7 @@
 		margin: 0px 2px; 
 	}
 	
-	a {
-		color: azure;
-	}
+
 	
 	.icon-container {
 		margin-top: 30px;
@@ -157,6 +159,10 @@
 		#link {
 			color: #4aaaa5;
 		}
+
+		a {
+			color: whitesmoke;
+		}
 		
 		.navigation {
 			padding: 18px;
@@ -187,9 +193,6 @@
 			margin: 0px 2px; 
 		}
 		
-		a {
-			color: azure;
-		}
 		
 		.icon-container {
 			margin-top: 30px;
