@@ -11,7 +11,7 @@ function Weather() {
         data-days="2" 
         data-theme="original" 
       >
-          AUSTIN WEATHER
+        AUSTIN WEATHER
       </a>
     </div> 
   );
