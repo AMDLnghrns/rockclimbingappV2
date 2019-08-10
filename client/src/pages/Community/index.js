@@ -76,18 +76,20 @@ export function Community() {
        
       ))}
 
-
-      {deal.map(deals => (
+      <div className="row">
+        {deal.map(deals => (
         
-        <DealCard
-          key={deals.unique_id}
-          title={deals.title}
-          description={deals.description} 
-          picture = {deals.picture}      
-        />
+          <DealCard
+            key={deals.unique_id}
+            title={deals.title}
+            description={deals.description} 
+            picture = {deals.picture}
+            site = {deals.site} 
+            url = {deals.url}    
+          />
        
-      ))}
-        
+        ))}
+      </div>
     </div>
   ); 
 

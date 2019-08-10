@@ -6,11 +6,15 @@ export default function ArticleCard(props) {
   
   return (
     <div>
-      <section>
-        <h6>{props.title}</h6>
-      </section>
-      <div className="imageContainer">
-        <img src={props.picture} alt={props.title} />
+      <div className="row">
+        <div className="col">
+          <h2>{props.title}</h2>
+        </div>
+        <div className="col">
+          <div className="imageContainer">
+            <img src={props.picture} alt={props.title} />
+          </div>
+        </div>
       </div>
     </div>
   );
