@@ -18,6 +18,14 @@
 }
 
 a {
-    color: #589559 !important;
+    color: #589559;
     font-weight: bold;
+}
+
+.deal {
+    width: 8rem;
+}
+
+.deal-link {
+    color: #589559;
 }
