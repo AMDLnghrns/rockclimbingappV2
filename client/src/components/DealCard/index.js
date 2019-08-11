@@ -8,21 +8,20 @@ export default function DealCard(props) {
   
   return (
     <div className="card-deal">
-      
-        
-      <h6>{props.title}</h6>
-        
       <div className="row">
         <div className="col">
-          <p>{props.description}</p>
+          <div className="imageContainer">
+            <img className="deal" src={props.picture} alt={props.title} />
+          </div>
         </div>
         <div className="col">
-          <button className="dealButton"><a href={props.url} target="#" className="deal-link"><FontAwesomeIcon icon={faCartPlus} /></a></button>
+          <h6>{props.title}</h6>
+          <p>{props.description}</p>
         </div>
       </div>
-      <div className="imageContainer">
-        <img className="deal" src={props.picture} alt={props.title} />
-      </div>
+      <br />
+      <button className="dealButton"><a href={props.url} target="#" className="deal-link"><FontAwesomeIcon icon={faCartPlus} /></a></button>
+        
       
     </div>
   );
