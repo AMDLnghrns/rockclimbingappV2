@@ -1,5 +1,5 @@
 .card-deal {
-    width: 15rem;
+    width: 18vw;
     padding: 1rem;
     overflow: hidden;
     height: 13vw;
@@ -26,6 +26,10 @@ a {
     width: 8rem;
 }
 
-.deal-link {
-    color: #589559;
+
+
+.dealButton {
+    background: rgb(90,2,255);
+    background-image: linear-gradient( 135deg, #6B73FF 10%, #000DFF 100%);
+    border: none;
 }
