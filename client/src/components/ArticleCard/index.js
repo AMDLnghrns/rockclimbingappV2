@@ -8,11 +8,11 @@ export default function ArticleCard(props) {
     <div>
       <div className="blogs-container">
         <div className="blog-card">
-          <figure><a href={props.url}><img src={props.picture} alt={props.title}/></a></figure>
+          <figure><a href={props.url} target="#"><img src={props.picture} alt={props.title}/></a></figure>
           <div
             className="blog-content">
             <div className="blog-topic"><a href={props.url} target="#">{props.site}</a></div>
-            <h3 className="blog-title"><a href={props.url} target="#">{props.title}</a></h3>
+            <h5 className="blog-title"><a href={props.url} target="#">{props.title}</a></h5>
             <br />
             <div className="blog-footer"><a className="blog-category" href={props.url} target="#">{props.articleDate}</a></div>
           </div>

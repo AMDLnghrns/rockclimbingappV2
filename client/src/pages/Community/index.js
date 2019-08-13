@@ -54,6 +54,8 @@ export function Community() {
     
   return (
     <div>
+      <h1>Photos</h1>
+      <hr />
       <div className="row">
         {picture.map(pictures => (
         
@@ -65,8 +67,10 @@ export function Community() {
        
         ))}
       </div>
-
-      <div className="sector">
+      <br />
+      <h1>Articles</h1>
+      <hr />
+      <div className="row">
         {article.map(articles => (
         
           <ArticleCard
@@ -81,7 +85,9 @@ export function Community() {
         ))}
         
       </div>
-
+      <br />
+      <h1>Deals</h1>
+      <hr />
       <div className="row">
         {deal.map(deals => (
         
