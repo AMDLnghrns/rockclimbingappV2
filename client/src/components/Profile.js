@@ -10,13 +10,16 @@ const Profile = () => {
   console.log(user);
 
   return (
-    <>
-      <img src={user.picture} alt="Profile" />
-
-      <h2>{user.name}</h2>
-      <p>{user.email}</p>
-      <code>{JSON.stringify(user, null, 2)}</code>
-    </>
+    <div className="row">
+      <div className="col">
+        <img src={user.picture} alt="Profile" />
+      </div>
+      <div className="col">
+        <h2>{user.name}</h2>
+        <p>{user.email}</p>
+        {/* <code>{JSON.stringify(user, null, 2)}</code> */}
+      </div>
+    </div>
   );
 };
 
