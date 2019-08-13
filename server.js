@@ -122,19 +122,19 @@ axios.get("https://www.backcountry.com/rc/sale-climb").then(function(response) {
 
 function cleanUpPics() {
   db.sequelize.query(
-    "DELETE FROM `scrapeddata`.`scrape` WHERE (`type` = 'Picture') and (`url` is null);"
+    "DELETE FROM `scrape` WHERE (`type` = 'Picture') and (`url` is null);"
   );
 }
 
 function cleanUpDeals() {
   db.sequelize.query(
-    "DELETE FROM `scrapeddata`.`scrape` WHERE (`type` = 'Deal') and (`description` = 'from ');"
+    "DELETE FROM `scrape` WHERE (`type` = 'Deal') and (`description` = 'from ');"
   );
 }
 
 function cleanUpDealsUndefined() {
   db.sequelize.query(
-    "DELETE FROM `scrapeddata`.`scrape` WHERE (`type` = 'Deal') and (`picture` = 'https:undefined');"
+    "DELETE FROM `scrape` WHERE (`type` = 'Deal') and (`picture` = 'https:undefined');"
   );
 }
 
