@@ -10,7 +10,7 @@ export default function ImageCard(props) {
       
       <h6>{props.title}</h6>
       <div className="imageContainer">
-        <img src={props.url} alt={props.title} />
+        <img src={props.picture} alt={props.title} />
       </div>
     </div>
     
