@@ -122,7 +122,7 @@ axios.get("https://www.backcountry.com/rc/sale-climb").then(function(response) {
 
 function cleanUpPics() {
   db.sequelize.query(
-    "DELETE FROM `scrape` WHERE (`type` = 'Picture') and (`url` is null);"
+    "DELETE FROM `scrape` WHERE (`type` = 'Picture') and (`picture` is null);"
   );
 }
 
@@ -155,7 +155,7 @@ app.use(routes);
 
 // Start the API server
 // ADD SEQUELIZE HERE TO CONNECT TO YOUR DB
-db.sequelize.sync({ force: false }).then(() => {
+db.sequelize.sync({ force: true }).then(() => {
   app.listen(PORT, () => {
     console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
   });
