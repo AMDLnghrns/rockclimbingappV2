@@ -1,12 +1,12 @@
-footer {
-	background-color: white;
-	height: 90px;
+.footer {
+  background-color: gray;
+  font-size: 2rem;
 }
 
-img {
-	padding-top: 10px;
+a {
+  color: black;
 }
 
-.nav-link:hover {
-    color: red
+.fab {
+  padding: 0 3px;
 }
