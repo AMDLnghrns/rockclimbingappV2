@@ -70,7 +70,7 @@ axios
         .children("a")
         .children("div")
         .children("img")
-        .attr("src");
+        .attr("data-original");
 
       db.scrape
         .create(result)
