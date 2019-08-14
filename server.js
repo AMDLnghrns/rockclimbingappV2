@@ -99,7 +99,7 @@ axios.get("https://www.backcountry.com/rc/sale-climb").then(function(response) {
       $(this)
         .children("div")
         .children("img")
-        .attr("data.src");
+        .attr("data-src");
     result.description = $(this)
       .children("div")
       .children("span")
