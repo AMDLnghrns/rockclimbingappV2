@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import Jumbotron from "../../components/Jumbotron/index.js";
 import Container from "../../components/Container";
+import "./HomePage.css";
 
 
 class FrontPage extends Component {
   render() {
     return (
       <div>
-        <Jumbotron>
-          <h3>Sendsville</h3>
-        </Jumbotron>
+        
+        <h2>Sendsville</h2>
+        
         <Container>
         Column 1:
         Title: Sendsville, Population: You.

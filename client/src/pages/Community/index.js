@@ -62,7 +62,8 @@ export function Community() {
           <ImageCard
             key={pictures.unique_id}
             title={pictures.title}
-            url={pictures.url}       
+            url={pictures.url}
+            picture={pictures.picture}
           />
        
         ))}
