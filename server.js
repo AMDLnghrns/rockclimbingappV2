@@ -160,3 +160,4 @@ db.sequelize.sync({ force: false }).then(() => {
     console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
   });
 });
+
