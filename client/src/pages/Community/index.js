@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import ImageCard from "../../components/ImageCard";
 import ArticleCard from "../../components/ArticleCard";
 import DealCard from "../../components/DealCard";
-import Lightbox from "react-lightbox-component";
 import "./community.css";
 
 

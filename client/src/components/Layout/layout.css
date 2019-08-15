@@ -5,9 +5,12 @@
   
  .content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
-    width: min-content;
+    width: 1280px;
     margin: auto;
+    margin-top: 3rem;
     padding-top: 2.5rem;
+    padding-left: 3rem;
+    background-color: white;
   }
   
   .footer {
@@ -17,3 +20,8 @@
     height: 2.5rem;   
     background-color: gray;        /* Footer height */
   }
+
+  h1 h2 h3 h4 h5 h6 {
+    font-family: "Exo", sans-serif;
+  }
+ 
