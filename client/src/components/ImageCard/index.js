@@ -8,8 +8,7 @@ export default function ImageCard(props) {
     
     <div className="card">
       
-      <h6>{props.title}</h6>
-      <div className="imageContainer">
+      <div className="card__image card__image">
         <img src={props.picture} alt={props.title} />
       </div>
     </div>
