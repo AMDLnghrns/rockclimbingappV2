@@ -3,11 +3,19 @@ import Footer from "../Footer/index";
 import "./layout.css";
 
 const Layout = ({ children }) => (
-  <div>
-    <div className="contain">
+  <div className="page-container">
+    <div className="content-wrap">
       {children}
     </div>
-    <Footer />
+    <footer className="footer"><i className="fab fa-react" />
+      <a
+        href="https://github.com/krayt0n3/rockclimbingappV2"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-github" />
+        Repo
+      </a></footer>
   </div>
 );
 

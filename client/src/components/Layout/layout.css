@@ -1,6 +1,19 @@
-.contain {
-    padding: 10px;
-    width: 1280px;
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+ .content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+    width: min-content;
     margin: auto;
-    margin-top: 50px;
-}
+    padding-top: 2.5rem;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    background-color: gray;        /* Footer height */
+  }

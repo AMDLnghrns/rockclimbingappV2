@@ -13,11 +13,7 @@ function getDBConfigFromUrl(url){
 const config = {
   "development": {
     "username": "root",
-<<<<<<< HEAD
     "password": "bexley10",
-=======
-    "password": "password",
->>>>>>> bd14156136a3cf8eed6b68d9371998197d170901
     "database": "scrapedData",
     "host": "127.0.0.1",
     "dialect": "mysql",
