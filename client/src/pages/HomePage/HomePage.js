@@ -13,7 +13,8 @@ class FrontPage extends Component {
         <div className="col">
         Connect with climbers and learn about what is happening in the climbing world.
         See photos of climbing adventures for a little motivation.
-        Find new deals on gear consolidated into a single page.
+        Find new deals on gear consolidated into a single page.<br />
+          <img src="../../Assets/DSC_0015.png" alt="image"/>
         </div>
         <div className="col">
         Whether you are solving your long time project, or flashing a route for the first time, everytime you send a new route, you get to spend time in Sendsville. Sendsville is a magical place where you can take in the scenery around you and relish in the fact that you made it!
