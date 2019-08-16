@@ -17,6 +17,7 @@ import NavBar from "../../components/NavBar/index";
 
 class HomePage extends Component {
   render() {
+    
     return (
       <div>
         <BrowserRouter>
@@ -25,7 +26,7 @@ class HomePage extends Component {
             <Switch>
               <Route path="/" exact />
               <Route path="/home" component={FrontPage} />
-              <Route path="/cragsearch" component={CragSearch} />
+              <Route exact path="/cragsearch" component={CragSearch} />
               <Route path="/belaypartner" component={BelayPartner} />
               <Route path="/community" component={Community} />
               <Route path="/meetup" component={MeetUp} />
