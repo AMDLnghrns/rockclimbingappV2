@@ -3,6 +3,7 @@
 .page-container {
     position: relative;
     min-height: 100vh;
+    padding-bottom: 2rem;
   }
   
  .content-wrap {
@@ -20,8 +21,8 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;   
-    background-color: gray;        /* Footer height */
+    height: 3.5rem;   
+    background-color: #141b00;        /* Footer height */
   }
 
  

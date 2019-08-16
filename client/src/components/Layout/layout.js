@@ -7,6 +7,7 @@ const Layout = ({ children }) => (
     <div className="content-wrap">
       {children}
     </div>
+    <br /><br />
     <footer className="footer"><i className="fab fa-react" />
       <a
         href="https://github.com/krayt0n3/rockclimbingappV2"
