@@ -11,7 +11,7 @@ const Name = () => {
 
   return (
     <>
-      <p>{user.nickname}</p>
+     {user.given_name}
 
     </>
   );
