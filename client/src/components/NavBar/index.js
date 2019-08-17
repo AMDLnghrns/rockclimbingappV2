@@ -21,9 +21,6 @@ const NavBar = () => {
         <ul className="nav">
           {/* <li className="nav-li"><Name/></li> */}
           <li className="nav-li">
-            <Link to="/home">Home</Link>&nbsp;
-          </li>
-          <li className="nav-li">
             <Link to="/profile">Profile</Link>
           </li>
           <li className="nav-li">
